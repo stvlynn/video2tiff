@@ -16,6 +16,8 @@ video/*
 img/*
 !video/.gitkeep
 !img/.gitkeep
+!video/put_your_video_here
+!img/output_images
 
 # Environment files
 .env
