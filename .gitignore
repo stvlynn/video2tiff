@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dev/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Project specific
+video/*
+img/*
+!video/.gitkeep
+!img/.gitkeep
+
+# Environment files
+.env
+.env.local
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
